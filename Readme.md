@@ -19,11 +19,10 @@ A simple social network API built with Django REST Framework where developers ca
 ## 🔐 Authentication
 Uses JWT tokens via `djangorestframework-simplejwt`.
 
-```bash
+## Setup
 POST /api/register/
 POST /api/login/
 Authorization: Bearer <token>
-
 
 ## How to run
 python manage.py makemigrations
